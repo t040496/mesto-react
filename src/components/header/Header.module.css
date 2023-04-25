@@ -1,0 +1,28 @@
+.header {
+    padding: 45px 0 40px;
+    max-width: 880px;
+    max-height: 74px;
+    border-bottom: 1px solid rgba(84,84,84,.7);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin-top: 28px;
+        margin-bottom: 42px;
+    }
+}
+.logo {
+    background-image: url(../../images/logo.svg);
+    width: 142px;
+    height: 33px;
+    object-fit: cover;
+  }
+  @media screen and (max-width: 767px) {
+    .logo {
+      width: 104px;
+      height: 24px;
+      background-size: cover;
+      margin-left: 27px;
+    }
+}
